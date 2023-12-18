@@ -1,1 +1,11 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: app-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: app-container
+        image: public.ecr.aws/m4r1g5r3/kbot:8294233-amd64
 
