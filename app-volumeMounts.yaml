@@ -1,1 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  containers:
+  - name: my-container
+    image: public.ecr.aws/m4r1g5r3/kbot:8294233-amd64
+    volumeMounts:
+    - name: app-volume
+      mountPath: /app
+  volumes:
+  - name: app-volume
+    emptyDir: {}
 
