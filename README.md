@@ -5,7 +5,7 @@
 | app-readinessProbe.yaml|   create deployment app readiness probe  public.ecr.aws/m4r1g5r3/kbot:8294233-amd64   |        creates app liveness probe for application from: public.ecr.aws/m4r1g5r3/kbot:8294233-amd64                  |              https://github.com/staskuznetsov/kubectl_AI/blob/main/app-readinessProbe.yaml                                        |
 | app-volumeMounts.yaml|   create app volume mounts  public.ecr.aws/m4r1g5r3/kbot:8294233-amd64   |             create volume mounts for application from:  public.ecr.aws/m4r1g5r3/kbot:8294233-amd64            |                        https://github.com/staskuznetsov/kubectl_AI/blob/main/app-volumeMounts.yaml                           |
 | app-cronjob.yaml|   create app cron job public.ecr.aws/m4r1g5r3/kbot:8294233-amd64   |           create app cron job for application from: public.ecr.aws/m4r1g5r3/kbot:8294233-amd64              |                            https://github.com/staskuznetsov/kubectl_AI/blob/main/app-cronjob.yaml                          |
-| app-job.yaml|      |                         |                                                      |
+| app-job.yaml|   create app job public.ecr.aws/m4r1g5r3/kbot:8294233-amd64   |           create app job for application from: public.ecr.aws/m4r1g5r3/kbot:8294233-amd64              |                                   https://github.com/staskuznetsov/kubectl_AI/blob/main/app-job.yaml                   |
 | app-multicontainer.yaml|      |                         |                                                      |
 | app-resources.yaml|      |                         |                                                      |
 | app-secret-env.yaml|      |                         |                                                      |
