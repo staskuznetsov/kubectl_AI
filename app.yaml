@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: <image_name>
+          image: public.ecr.aws/m4r1g5r3/kbot:8294233-amd64
           ports:
             - containerPort: 80
 
